@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Nav from "./Nav";
 import Card from "./Card";
 import Featured from "./Featured";
+import Footer from "./Footer";
 //create your first component
 const Home = () => {
 	return (
@@ -12,7 +13,8 @@ const Home = () => {
             <Nav />
 			<Featured />
 			<Card />
-			
+			<Footer />
+
 		</div>
 	);
 };
